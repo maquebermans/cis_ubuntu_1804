@@ -551,3 +551,4 @@
   args:
       executable: /bin/bash
   register: tmp_uuid
+  failed_when: "tmp_uuid.rc not in [ 0, 1 ]"
