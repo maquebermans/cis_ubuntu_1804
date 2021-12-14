@@ -322,6 +322,7 @@
     - ubuntu1804cis_rule_1_1_3
     - ubuntu1804cis_rule_1_1_4
     - ubuntu1804cis_rule_1_1_5
+    - "tmp_uuid.rc not in [ 0, 1 ]"
   tags:
     - level1
     - scored
